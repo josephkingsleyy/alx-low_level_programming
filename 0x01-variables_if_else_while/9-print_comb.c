@@ -2,9 +2,7 @@
  * File: 9-print_comb.c
  * Auth: Joseph Uzochukwu
  */
-
 #include <stdio.h>
-
 /**
  * main - Prints all possible combinations of single-digit numbers.
  *
@@ -24,5 +22,6 @@ int main(void)
 		putchar(' ');
 	}
 	putchar('\n');
+	
 	return (0);
 }
