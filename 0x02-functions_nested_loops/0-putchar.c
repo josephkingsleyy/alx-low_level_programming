@@ -1,3 +1,7 @@
+/**
+ * THis program prints '_putchar' to stdout
+ */
+
 #include "main.h"
 
 /**
