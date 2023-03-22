@@ -1,21 +1,18 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - function that prints 10x the alphabet
- *
- * Return: x10 a-z
- */
-void print_alphabet_x10(void)
+  * print_alphabet - Make the alphabet
+  *
+  * Return: void
+  */
+void print_alphabet(void)
 {
-	int n, count;
+	char c;
 
-	while (count < 10)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		for (n = 'a'; n <= 'z'; n++)
-		{
-			_putchar(n);
-		}
-		count++;
-		_putchar('\n');
+		_putchar(c);
 	}
+
+	_putchar('\n');
 }
