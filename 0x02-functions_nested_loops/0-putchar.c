@@ -1,10 +1,10 @@
 /*
- * File: 0-holberton.c
+ * File: 0. _putchar.c
  * Auth: Uzo
  *
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - Prints "_putchar" followed by a new line.
