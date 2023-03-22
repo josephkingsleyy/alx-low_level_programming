@@ -1,13 +1,11 @@
-/**
- * THis program prints '_putchar' to stdout
- */
-
 #include "main.h"
 
 /**
  * main: Entry point
  *
  *  Return: Always 0 (Success)
+ *
+ *  The program prints _putchar on stdout
  */
 
 int main(void)
