@@ -3,9 +3,10 @@
 /**
  * main: Entry point
  *
+ * @_puchar: prints _putchar to stdout followed by a new line
+ *
  *  Return: Always 0 (Success)
  *
- *  The program prints _putchar on stdout
  */
 
 int main(void)
