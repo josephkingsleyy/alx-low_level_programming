@@ -3,8 +3,6 @@
 /**
  * main: Entry point
  *
- * @_puchar: prints _putchar to stdout followed by a new line
- *
  *  Return: Always 0 (Success)
  *
  */
