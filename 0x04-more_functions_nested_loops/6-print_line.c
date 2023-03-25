@@ -13,7 +13,7 @@ void print_line(int n)
 
 	while (i <= 5)
 	{
-		_putchar("-\n");
+		_putchar("-");
 
 		i++;
 	}
