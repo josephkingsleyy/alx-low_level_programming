@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * more_numbers - print numbers x10
+ * more_numbers - make numbers x10 times
  *
  * Return: void
  */
 void more_numbers(void)
 {
-	int c;
-	int i = 0;
+	int i = 0, c;
 
 	while (i <= 9)
 	{
