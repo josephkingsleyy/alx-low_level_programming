@@ -29,5 +29,4 @@ void rev_string(char *s)
 	}
 	end[len + 1] = '\0';
 
-	return(s);
 }
