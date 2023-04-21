@@ -1,37 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * print_opcodes- prints opcodes of its own main function
- * main: entry point
- * Return: opcodes to be printed in Hexadecimal
+ * main - function to print its own opcode
+ * @argc: number of arguments
+ * @argv: argument variables passed
+ * Return: Always 0/
  */
-
-void print_opcodes(int n_bytes);
-
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-    if (argc != 2)
-    {
-        printf("Error\n");
-        return (1);
-    }
-    int n_bytes = atoi(argv[1]);
-    if (n_bytes < 0)
-    {
-        printf("Error\n");
-        return (2);
-    }
-    print_opcodes(n_bytes);
-    return (0);
-}
+	int a, b;
+	char *s;
 
-void print_opcodes(int n_bytes)
-{
-    unsigned char *p = (unsigned char *)&print_opcodes;
-    for (int i = 0; i < n_bytes; i++)
-    {
-        printf("%02x", *(p + i));
-    }
-    printf("\n");
+	if (argc < 2)
+	{
+		printf("Error\n");
+		exit(1);
+	}
+	a = atoi(argv[1]);
+	if (a < 0)
+	{
+		printf("Error\n");
+		exit(2);
+	}
+	s = (char *)main;
+	for (b = 0; b < a - 1; b++)
+		printf("%02hhx ", s[b]);
+	printf("%02hhx\n", s[b]);
+	return (0);
 }
-
